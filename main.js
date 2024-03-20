@@ -66,4 +66,6 @@ while (samples.length < 30) {
   };
 };
 
-console.log(samples);
+for (let sample of samples) {
+  console.log(`Specimen: ${sample.specimenNum}\nDNA: ${sample.dna}`);
+};
